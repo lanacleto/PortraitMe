@@ -2,7 +2,12 @@ import "./Main.scss";
 
 function Main() {
     return (
-        <div className="Main">Eu sou um componente main sendo renderizado</div>
+        <div className="Main">
+            <div className="content">
+                <h1>Meus projetos</h1>
+                <div className="orange-box"></div>
+            </div>
+        </div>
     );
 }
 
